@@ -30,9 +30,9 @@ APP_ID = int(os.environ.get("APP_ID", "23630387"))
 #your api hash from https://my.telegram.org/apps
 API_HASH = os.environ.get("API_HASH", "3139998ebc89c2bc1873b794689f8e56")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002251450239"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002262308327"))
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
-OWNER_ID = int(os.environ.get("OWNER_ID", "7374493703"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7634077852"))
 #port set to default 8080
 PORT = os.environ.get("PORT", "8080")
 #your database url mongodb only You can use mongo atlas free cloud database
@@ -60,10 +60,10 @@ https://dashboard.shareus.io/
 # TRUE for yes FALSE if no 
 USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
 # only shareus service known rightnow rest you can test on your own
-SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "modijiurl.com")
+SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "anylinks.in")
 # SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "64ee083bf8bf3abc2c40d3a725ffde917cd7801a")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "c892f7294edfcb64af7551f7f54160df1b773eeb")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
@@ -103,7 +103,7 @@ PRICE5 = os.environ.get("PRICE5", "₹499 / 6.2$")
 #force message for joining the channel
 FORCE_MSG = os.environ.get("FORCE_MSG", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b> 🥺")
 #custom caption 
-CUSTOM_CAPTION = os.environ.get("Telegram @Swbackups @Supplywala_Membership")
+CUSTOM_CAPTION = os.environ.get("Telegram @Swbackups")
 #protected content so that no files can be sent from the bot to anyone. recommended False
 # TRUE for yes FALSE if no
 PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "FALSE") == "TRUE" else False
