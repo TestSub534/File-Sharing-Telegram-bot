@@ -10,7 +10,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #force user to join your backup channel leave 0 if you don't need.
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002496950672"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002211948992"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002302583753"))
 
 if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
@@ -85,7 +85,7 @@ UPI_ID = os.environ.get("UPI_ID", " USE QR  ")
 #UPI QR CODE IMAGE
 UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://t.me/owner_details")
 #SCREENSHOT URL of ADMIN for verification of payments
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/swycp")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/sw_deals")
 #Time and its price
 #7 Days
 PRICE1 = os.environ.get("PRICE1", "₹199 / 3$")
