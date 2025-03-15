@@ -60,10 +60,10 @@ https://dashboard.shareus.io/
 # TRUE for yes FALSE if no 
 USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
 # only shareus service known rightnow rest you can test on your own
-SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "anylinks.in")
+SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "linkshortify.com")
 # SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "c892f7294edfcb64af7551f7f54160df1b773eeb")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "6c4f89559923f7fcf1f27892e49260af6a3df65a")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
